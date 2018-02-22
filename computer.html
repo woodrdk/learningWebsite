@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Robert Wood Jr's Portfolio Website</title>
+        <link rel="shortcut icon" href="../images/gears.ico">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/spine.css">
+        <style>        
+
+            section{float: left;
+                    width: 30%;}
+            aside{float:right;
+                    width: 70%;
+                    margin-top: 150px;}
+            header{
+                padding: 25px;
+                text-align: center;
+            }
+            
+            #main {
+                width: 350px;
+            }
+            #main img {
+                float: left;
+            }
+            
+            #main img:hover{
+                color: red;
+            }
+            
+            p.test {
+                font-size: xx-large;
+            }
+
+            /*    https://www.disabled-world.com/artman/publish/spine_picture.shtml#c3 */
+        </style>
+    </head>     
+        <body>
+            
+            <header>
+         This is listed as a computer project, even though it is a medical information type page. The goal of this project is to learn how to use some javescript functions with an interactive image. To implement on a currently live website for spinal cord injuries. <h2><a href="http://hereandnowproject.org/">Here and Now Project</a></h2><p></p><p></p><p></p>
+          
+                <p></p><h1>
+                    This chart is a general guide only, impairments and rehabilitation varies depending on the type and severity of SCI. </h1>
+                <br>
+                <p></p><h3>Click on the image of the spine at level of injury to see more information about it.</h3>
+            </header>
+            
+            <nav>
+                <ul class="nav" >
+                    <li class="nav" ><a class="active" href="index.html">Home</a></li>
+                    <li class="nav" ><a class="active" href="gallery.html">Gallery</a></li>
+                    <li class="nav" ><a href="resume.html">Resume</a></li>
+                    <li class="nav"><a href="computer.html">Computers</a></li>
+                    <li class="nav" ><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>   
+
+            
+          
+
+            <section>
+               
+            <div id="main" class="brightness">
+                        <a class="c1" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_01.jpg" alt="spinal map" onclick="FunctionC1()">
+                            <img src="../images/spine/br-spine_01.jpg" alt="spinal map" onclick="FunctionC1()">              
+                        </a>
+               
+                        <a class="c2" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_02.jpg" alt="spinal map" onclick="FunctionC2()">
+                            <img src="../images/spine/br-spine_02.jpg" alt="spinal map" onclick="FunctionC2()">
+                        </a>    
+                        
+                        <a class="c3" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_03.jpg" alt="spinal map" onclick="FunctionC3()">
+                            <img src="../images/spine/br-spine_03.jpg" alt="spinal map" onclick="FunctionC3()">
+                        </a>    
+               
+                        <a class="c4" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_04.jpg" alt="spinal map" onclick="FunctionC4()">
+                            <img src="../images/spine/br-spine_04.jpg" alt="spinal map" onclick="FunctionC4()">
+                        </a>    
+               
+                        <a class="c5" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_05.jpg" alt="spinal map" onclick="FunctionC5()">
+                            <img src="../images/spine/br-spine_05.jpg" alt="spinal map" onclick="FunctionC5()">
+                        </a>    
+               
+                        <a class="c6" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_06.jpg" alt="spinal map" onclick="FunctionC6()">
+                            <img src="../images/spine/br-spine_06.jpg" alt="spinal map" onclick="FunctionC6()">
+                        </a>    
+               
+                        <a class="c7" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_07.jpg" alt="spinal map" onclick="FunctionC7()">
+                            <img src="../images/spine/br-spine_07.jpg" alt="spinal map" onclick="FunctionC7()">
+                        </a>    
+               
+                        <a class="c8" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_08.jpg" alt="spinal map" onclick="FunctionC8()">
+                            <img src="../images/spine/br-spine_08.jpg" alt="spinal map" onclick="FunctionC8()">
+                        </a>    
+               
+                        <a class="t1" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_09.jpg" alt="spinal map" onclick="FunctionT1()">
+                            <img src="../images/spine/br-spine_09.jpg" alt="spinal map" onclick="FunctionT1()">
+                        </a>    
+               
+                        <a class="t2" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_10.jpg" alt="spinal map" onclick="FunctionT2()">
+                            <img src="../images/spine/br-spine_10.jpg" alt="spinal map" onclick="FunctionT2()">
+                        </a>    
+               
+                        <a class="t3" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_11.jpg" alt="spinal map" onclick="FunctionT3()">
+                            <img src="../images/spine/br-spine_11.jpg" alt="spinal map" onclick="FunctionT3()">
+                        </a>    
+               
+                        <a class="t4" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_12.jpg" alt="spinal map" onclick="FunctionT4()">
+                            <img src="../images/spine/br-spine_12.jpg" alt="spinal map" onclick="FunctionT4()">
+                        </a>    
+               
+                        <a class="t5" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_13.jpg" alt="spinal map" onclick="FunctionT5()">
+                            <img src="../images/spine/br-spine_13.jpg" alt="spinal map" onclick="FunctionT5()">
+                        </a>    
+               
+                        <a class="t6" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_14.jpg" alt="spinal map" onclick="FunctionT6()">
+                            <img src="../images/spine/br-spine_14.jpg" alt="spinal map" onclick="FunctionT6()">
+                        </a>    
+               
+                        <a class="t7" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_15.jpg" alt="spinal map" onclick="FunctionT7()">
+                            <img src="../images/spine/br-spine_15.jpg" alt="spinal map" onclick="FunctionT7()">
+                        </a>    
+               
+                        <a class="t8" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_16.jpg" alt="spinal map" onclick="FunctionT8()">
+                            <img src="../images/spine/br-spine_16.jpg" alt="spinal map" onclick="FunctionT8()">
+                        </a>    
+               
+                        <a class="t9" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_17.jpg" alt="spinal map" onclick="FunctionT9()">
+                            <img src="../images/spine/br-spine_17.jpg" alt="spinal map" onclick="FunctionT9()">
+                        </a>    
+               
+                        <a class="t10" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_18.jpg" alt="spinal map" onclick="FunctionT10()">
+                            <img src="../images/spine/br-spine_18.jpg" alt="spinal map" onclick="FunctionT10()">
+                        </a>    
+                        
+                        <a class="t11" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_19.jpg" alt="spinal map" onclick="FunctionT11()">
+                            <img src="../images/spine/br-spine_19.jpg" alt="spinal map" onclick="FunctionT11()">
+                        </a>    
+               
+                        <a class="t12" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_20.jpg" alt="spinal map" onclick="FunctionT12()">
+                            <img src="../images/spine/br-spine_20.jpg" alt="spinal map" onclick="FunctionT12()">
+                        </a>    
+               
+                        <a class="l1" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_21.jpg" alt="spinal map" onclick="FunctionL1()">
+                            <img src="../images/spine/br-spine_21.jpg" alt="spinal map" onclick="FunctionL1()">
+                        </a>    
+               
+                        <a class="l2" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_22.jpg" alt="spinal map" onclick="FunctionL2()">    
+                            <img src="../images/spine/br-spine_22.jpg" alt="spinal map" onclick="FunctionL2()">
+                        </a>    
+               
+                        <a class="l3" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_23.jpg" alt="spinal map" onclick="FunctionL3()">
+                            <img src="../images/spine/br-spine_23.jpg" alt="spinal map" onclick="FunctionL3()">
+                        </a>    
+               
+                        <a class="l4" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_24.jpg" alt="spinal map" onclick="FunctionL4()">
+                            <img src="../images/spine/br-spine_24.jpg" alt="spinal map" onclick="FunctionL4()">
+                        </a>    
+               
+                        <a class="l5" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_25.jpg" alt="spinal map" onclick="FunctionL5()">
+                            <img src="../images/spine/br-spine_25.jpg" alt="spinal map" onclick="FunctionL5()">
+                        </a>    
+               
+                        <a class="s1" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_26.jpg" alt="spinal map" onclick="FunctionS1()">
+                            <img src="../images/spine/br-spine_26.jpg" alt="spinal map" onclick="FunctionS1()">
+                        </a>    
+               
+                        <a class="s2" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_27.jpg" alt="spinal map" onclick="FunctionS2()">
+                            <img src="../images/spine/br-spine_27.jpg" alt="spinal map" onclick="FunctionS2()">
+
+                        </a>    
+               
+                        <a class="s3" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_28.jpg" alt="spinal map" onclick="FunctionS3()">
+                            <img src="../images/spine/br-spine_28.jpg" alt="spinal map" onclick="FunctionS3()">
+                        </a>    
+               
+                        <a class="s4" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_29.jpg" alt="spinal map" onclick="FunctionS4()">
+                            <img src="../images/spine/br-spine_29.jpg" alt="spinal map" onclick="FunctionS4()">
+                        </a>    
+               
+                        <a class="s5" href="#" onclick="getFocus()">
+                            <img src="../images/spine/spine_30.jpg" alt="spinal map" onclick="FunctionS5()">
+                            <img src="../images/spine/br-spine_30.jpg" alt="spinal map" onclick="FunctionS5()">
+                        </a>    
+            </div>
+            </section>
+            
+            <aside>
+            
+
+
+                
+                <p id="test" class="test">Click on the spinal image location to find out how an injury can affect you.</p>
+
+
+                <script>
+                                       
+                function FunctionC1() { 
+                    document.getElementById("test").innerHTML = "C1 - Atlas - The Atlas is the topmost vertebra, and along with C2, forms the joint connecting the skull and spine. Its chief peculiarity is that it has no body, and this is due to the fact that the body of the atlas has fused with that of the next vertebra.";
+                }
+
+                function FunctionC2() { 
+                    document.getElementById("test").innerHTML = "C2 - Axis - Forms the pivot upon which C1 rotates. The most distinctive characteristic of this bone is the strong odontoid process (dens) which rises perpendicularly from the upper surface of the body. The body is deeper in front than behind, and prolonged downward anteriorly so as to overlap the upper and front part of the third vertebra. Injuries to C-1 and C-2 can result in a loss of many involuntary functions including the ability to breathe, necessitating breathing aids such as ventilators or diaphragmatic pacemakers.";
+                }
+
+                function FunctionC3() { 
+                    document.getElementById("test").innerHTML = "C3 - Injury to spinal bone three often causes pain, tingling, and sometimes numbness in the arms, neck, and head. If the fourth cervical vertebrae (C4) nerve root is also involved, pain is usually felt in the upper arms and shoulders, as well as the lower neck.";
+                }
+
+                function FunctionC4() { 
+                    document.getElementById("test").innerHTML = "C4 - Cervical Vertebra - Quadriplegia and breathing difficulty - The fourth cervical (neck) vertebra from the top. Injuries above the C-4 level may require a ventilator for the person to breathe properly.";
+                }
+
+                function FunctionC5() { 
+                    document.getElementById("test").innerHTML = "C5 - Quadriplegia with some shoulder and elbow function - 5th cervical vertabrae down from the base of the skull, found in the neck. C5 injuries often maintain shoulder and biceps control, but have no control at the wrist or hand. C5 to C8 injuries - Corresponding nerves control the arms and hands, a person with this level of spinal injury may still be able to breathe on their own and speak normally.";
+                }
+
+                function FunctionC6() { 
+                    document.getElementById("test").innerHTML = "C6 - Cervical Vertebra - Quadriplegia with shoulder, elbow, and some wrist function - The sixth cervical (neck) vertebra from the top. The next-to-last of the seven cervical vertebrae. An injury to the spinal cord between C6 and C7 vertebrae is called a C6-7 injury. These injuries generally allow wrist control, but no hand function.";
+                }
+
+                function FunctionC7() { 
+                    document.getElementById("test").innerHTML = "C7 - Vertebra Prominens - Quadriplegia with shoulder, elbow, wrist, and some hand function - The most distinctive characteristic of this vertebra is the existence of a long and prominent spinous process, hence the name vertebra prominens. In some subjects, the seventh cervical vertebra is associated with an abnormal pair of ribs, known as cervical ribs. These ribs are usually small, but may occasionally compress blood vessels (such as the subclavian artery) or nerves in the brachial plexus, causing unpleasant symptoms. C-7 and T-1 can straighten their arms but still may have dexterity problems with the hand and fingers. Injuries at the thoracic level and below result in paraplegia, with the hands not affected.";
+                }
+
+                function FunctionC8() { 
+                    document.getElementById("test").innerHTML = "C8- Quadriplegia with normal arm function; hand weakness - Although there are seven cervical vertebrae (C1-C7), there are eight cervical nerves (C1-C8). All nerves except C8 emerge above their corresponding vertebrae, while the C8 nerve emerges below the C7 vertebra. In other words C8 is a nerve root not a vertebrae.";
+                }
+
+                function FunctionT1() { 
+                    document.getElementById("test").innerHTML = "T1 - Comparatively speaking, T1 is the smallest of all thoracic vertebrae. The T1 vertebra is the first (uppermost) of the twelve (12) thoracic vertebrae that make up the central and largest section of the spinal column between the lumbar vertebrae below and the cervical vertebrae above.";
+                }
+
+                function FunctionT2() { 
+                    document.getElementById("test").innerHTML = "T2 - The second vertebra in the thoracic spine is responsible for helping to support the rib cage. The T2 vertebra possesses facets that create joints with two of the ribs, thus helping to keep the thoracic spine far more stable than the cervical spine in the neck or the lumbar spine in the lower back. T2 vertebra degeneration include: Herniated, bulging or prolapsed discs, Bone spurs, Facet disease, Forms of osteoarthritis and Traumatic or sports-related injuries.";
+                }
+
+                function FunctionT3() { 
+                    document.getElementById("test").innerHTML = "T3- The third thoracic vertebrae is a small vertebra in the upper middle back that plays an integral role in supporting the rib cage. The anterior aspect of the upper thoracic spine is a difficult region to approach in spinal surgery.";
+                }
+
+                function FunctionT4() { 
+                    document.getElementById("test").innerHTML = "T4 - Spinal cord transection at T4 results in severe damage of the nervous tissue, with impairment of motor, sensory and autonomic functions. T4 syndrome is a relatively uncommon condition in which spinal injury at the T4 vertebra causes a set of symptoms including diffuse arm pain and pins and needles or numbness in the upper arm.";
+                }
+
+                function FunctionT5() { 
+                    document.getElementById("test").innerHTML = "T5 - The T5 vertebra, as well as the rest of the thoracic spine, provides a stable foundation for the human rib cage.";
+                }
+
+                function FunctionT6() { 
+                    document.getElementById("test").innerHTML = "T6 - An injury at the level of T6 (thoracic) spinal cord results in damage to the autonomic nervous system, both the sympathetic and parasympathetic divisions, affecting the function of major abdominal organs.";
+                }
+
+                function FunctionT7() { 
+                    document.getElementById("test").innerHTML = "T7 - The T7 vertebra is in the middle of the twelve (12) thoracic vertebrae of the torso and the center of the spinal column. Thoracic vertebrae play an important role, not only in the protection of the spinal cord, but also in the protection of vital organs. A vertebral compression fracture refers to a break of the vertebral body, most often below the T7 level of the thoracic spine (upper back), and is most commonly caused by weakened bone resulting from osteoporosis. Most vertebral compression fractures result in a loss of more than 15% to 20% of the height of the vertebra.";
+                }
+
+                function FunctionT8() { 
+                    document.getElementById("test").innerHTML = "T8- T8 vertebra is toward the lower (caudal) end of the twelve (12) thoracic vertebrae within the central, torso section of the spine. Like other spinal vertebrae, the T8 primarily protects and encases the spinal cord. The T8 is also at the same level as the xiphoid process. The eighth thoracic spinal nerve runs beneath the T8. Throughout the thoracic spine, discs like those above and beneath the T8 vertebra can become damaged and cause painful symptoms.";
+                }
+
+                function FunctionT9() { 
+                    document.getElementById("test").innerHTML = "T9 - T9 to T12 are known as the transition vertebrae. The lumbar cord is situated between T9 and T11 vertebrae. T9 to T12 injuries can be classified as either complete or incomplete injuries. Complete injuries result in the total loss of movement and sensation below the point of injury, while incomplete injuries indicate that some function below the level of injury is retained.";
+                }
+
+                function FunctionT10() { 
+                    document.getElementById("test").innerHTML = "T10 - T10 is situated at the umbilicus. The T10 vertebra is near to the bottom of the twelve (12) thoracic vertebrae (T1-T12) within the torso and making up the central portion of the spinal column. This particular vertebra has a complete articular facet and the thoracic spinal nerves passes out under it. T10 innervates the muscles of the lower abdomen. It is part of the section of the spinal cord which is most vulnerable to injury due to the area's high level of flexibility. An injury in this area will most likely experience limited or complete loss of use of the muscles in the lower abdomen, buttocks, legs, and feet. Extent of disability is determined by damage done to the T10 vertebra. Partial damage may cause weakness, numbness, lack of muscle control, or loss of the use of one side of the lower body. Complete damage could result in the loss of use of the lower body (paraplegia).";
+                }
+
+                function FunctionT11() { 
+                    document.getElementById("test").innerHTML = "T11 - The ribs connected to T11 and T12 at the bottom of the thoracic spine do not attach the sternum in front, but do provide protection for the kidneys in the back of the body. Because these levels have slightly less stability, they are slightly more prone to problems that can cause pain. A person with a T11 vertebral injury may have or recover sensations in the L1 through L4 dermatomes which include the front of the leg down to the mid-shin level. In addition, such a patient should recover hip extensors, knee extensors, and even ankle dorsiflexion. However, the sacral functions, including bowel and bladder and many of the flexor functions of the leg may be absent or weak.";
+                }
+
+                function FunctionT12() { 
+                    document.getElementById("test").innerHTML = "T12 - T12 ends just above the hip girdle. T12 bears the most weight of any thoracic vertebra, making it the strongest thoracic vertebra, but also the most susceptible to stress-related injuries. Compression fractures of the spine usually occur at the bottom part of the thoracic spine (T11 and T12) and the first vertebra of the lumbar spine (L1). The most common thoracic spinal cord injury involves T11 and T12.";
+                }
+
+                function FunctionL1() { 
+                    document.getElementById("test").innerHTML = "L1 - The first lumbar vertebra is at the same level as the ninth rib. This level is also called the important transpyloric plane, since the pylorus of the stomach is at this level.";
+                }
+
+                function FunctionL2() { 
+                    document.getElementById("test").innerHTML = "L2- Injuries to the spinal column at L2 or lower will damage the tip of the spinal cord, called the conus, or the spray of spinal roots that are descending to the appropriate spinal vertebral levels to exit the spinal canal or the caudal equina.";
+                }
+
+                function FunctionL3() { 
+                    document.getElementById("test").innerHTML = "L3 - The L3 vertebra is in the middle of the five lumbar vertebrae in the lower back portion of the spinal column. The L3 vertebra, or third lumbar vertebra, is one of the most common sites for the occurrence of a herniated disc and other spinal conditions that can cause chronic lower back pain. A lot of motion in the back is divided between these five motion segments with segments L3 - L4 and L4 - L5 taking most of the stress. L3 - L4 and L4 - L5 segments are most likely to breakdown from wear and tear causing such conditions as osteoarthritis. L2 and L3 cover the front part of the thighs.";
+                }
+
+                function FunctionL4() { 
+                    document.getElementById("test").innerHTML = "L4- The most likely to herniate (herniated disc, bulging disk, compressed disk, herniated intervertebral disk, herniated nucleus pulposus, prolapsed disk, ruptured disk, slipped disk). The effects of this can cause pain and numbness that can radiate through the leg and extend down to the feet (sciatica). Spondylolysis and spondylolisthesis are conditions that affect the moveable joints of the spine that help keep the vertebrae aligned one on top of the other. Spondylolysis is actually a weakness or stress fracture in one of the bony bridges that connects the upper and lower facet joints. This fracture can happen at any level of the spine but usually occurs at the fourth (L4) or fifth (L5) lumbar vertebra. L4 and L5 fractures are commonly the result of a high impact trauma from falls or motor vehicle accidents.";
+                }
+
+                function FunctionL5() { 
+                    document.getElementById("test").innerHTML = "L5- The fifth lumbar vertebra (L5) is the largest of the five lumbar vertebrae and is considered an atypical vertebra due to its shape. As the last of the lumbar vertebrae, the L5 vertebra bears more body weight than any of the other 23 vertebrae that sit atop it in the vertebral column. The L4 and L5 disc, in between the L4 and L5 vertebrae, can herniate or degenerate, leading to possible leg pain (sciatica) and/or lower back pain. The fifth lumbar vertebra is the most common site of spondylolysis and spondylolisthesis. Sacral Nerves (S1 to S5) injuries generally result in some loss of functionin the hips and legs. Little or no voluntary control of bowel or bladder, but patients can manage on their own with special equipment Most likely they will also still be able to walk.";
+                }
+
+                function FunctionS1() { 
+                    document.getElementById("test").innerHTML = "S1 L5 to S1 Isthmic Spondylolisthesis: A small fracture in the facet joints can allow the L5 vertebra to slip forward over the S1 vertebra, impinging the nerve root and leading to leg pain and other symptoms. L5-S1 disc herniation: Occurs when the inner portion leaks out and touches the nearby nerve root, causing pain to radiate in the lower back and/or down the leg. L5-S1 degenerative disc disease: If the L5-S1 disc is compromised, the L5-S1 disc itself can become a source of lower back and/or leg pain.";
+                }
+
+                function FunctionS2() { 
+                    document.getElementById("test").innerHTML = "S2- S2 is located at the level of posterior superior iliac spine. S2 covers the back of the thighs.";
+                }
+
+                function FunctionS3() { 
+                    document.getElementById("test").innerHTML = "S3- S3 cover the medial side of the buttocks.";
+                }
+
+                function FunctionS4() { 
+                    document.getElementById("test").innerHTML = "S4 - S4-5 covers the perineal region.";
+                }
+
+                function FunctionS5() { 
+                    document.getElementById("test").innerHTML = "S5 - S5 is the lowest dermatome and represents the skin immediately at and adjacent to the anus.";
+                }
+
+                                
+                function getFocus() {
+                    document.getElementById("test").focus();
+                }
+
+
+                </script>
+            </aside>
+      
+            <footer>
+            &copy; Robert M Wood Jr. 12/1/2017
+            </footer>
+        </body>
+   
+</html>    
+
+
+
+
+
+
+
+
